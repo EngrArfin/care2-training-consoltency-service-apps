@@ -71,7 +71,8 @@ This project is a fully responsive landing page designed for Care2 Training Cons
 
 ## Deployment
 
-- **Live Demo**: [Care2 Training Consultancy EDU App](https://vercel.com/engrarfins-projects/training-consoltency-edu-app)
+- **Live Demo**: [Care2 Training App](https://training-consoltency-edu-app.vercel.app)
+
 - **GitHub Repository**: [GitHub Link](https://github.com/engrarfins-projects/training-consoltency-edu-app)
 
 ## Getting Started
