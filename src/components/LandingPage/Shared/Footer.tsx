@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className=" bg-green-100 footer text-base-content p-10">
         <aside>
           <div>
-            <h1 className="text-4xl"> Fresh Harvests Shop</h1>
+            <h1 className="text-4xl"> Training Consoltency</h1>
           </div>
           <p>
             <br />
@@ -45,13 +45,13 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title">Contract us</h6>
           <Link href="" className="link link-hover">
-            1234 5678 90
+            +880 19635-27463
           </Link>
           <Link href="" className="link link-hover">
-            Freshharvests@gmail.com
+            consoltency@gmail.com
           </Link>
           <Link href="" className="link link-hover">
-            Tanjung Sari Street, Pontianak, Indonesia
+            Dhaka, Bangladesh
           </Link>
           <div>
             <p> Accepted Payment Methods:</p>
@@ -61,7 +61,7 @@ const Footer = () => {
       </footer>
       <footer className="footer bg-green-100  text-base-content border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
-          <p>© Copyright 2024, All Rights Reserved by Banana Studio</p>
+          <p>© Copyright 2024, All Rights Reserved by Training Consoltency</p>
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4">

@@ -1,4 +1,4 @@
-export const postData = [
+export const services = [
   {
     id: 1,
     title: "Student Visa Assistance",
