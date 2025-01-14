@@ -3,13 +3,15 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <footer className=" bg-green-100 footer text-base-content p-10">
+      <footer className=" bg-gray-950 footer text-white p-10">
         <aside>
           <div>
             <h1 className="text-4xl"> Training Consoltency</h1>
           </div>
           <p>
-            <br />
+            Care2 Training specializes in study abroad, work abroad, and <br />
+            recruitment solutions. We provide personalized guidance, <br />{" "}
+            trusted partnerships, and seamless processes to help.
           </p>
         </aside>
         <nav>
@@ -59,7 +61,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <footer className="footer bg-green-100  text-base-content border-base-300 border-t px-10 py-4">
+      <footer className="footer bg-gray-950  text-white border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
           <p>© Copyright 2024, All Rights Reserved by Training Consoltency</p>
         </aside>

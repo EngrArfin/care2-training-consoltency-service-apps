@@ -2,7 +2,7 @@ import { MongoClient, Db, ServerApiVersion } from "mongodb";
 
 let db: Db | null = null;
 
-export const mongoDB = async (): Promise<Db> => {
+export const connectDB = async (): Promise<Db> => {
   if (db) return db;
 
   const uri = process.env.NEXT_PUBLIC_DATABASE_URI;
@@ -18,7 +18,7 @@ export const mongoDB = async (): Promise<Db> => {
         deprecationErrors: true,
       },
     });
-    await client.connect(); // Ensure the connection is established
+    await client.connect();
     db = client.db("Training-Consoltenct");
     console.log("Connected to MongoDB successfully.");
     return db;

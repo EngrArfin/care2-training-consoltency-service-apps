@@ -2,7 +2,7 @@ import Image from "next/image";
 import footerphoto from "../../../UI/image/logo.png";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import { IoMdLogIn } from "react-icons/io";
+/* import { IoMdLogIn } from "react-icons/io"; */
 
 const Contract: React.FC = () => {
   return (
@@ -18,28 +18,28 @@ const Contract: React.FC = () => {
             style={{ objectFit: "cover" }}
           />
         </div>
-        <h2 className="text-4xl text-yellow-500 font-bold mb-4">
+        {/* <h2 className="text-4xl text-yellow-500 font-bold mb-4">
           GET IN TOUCH
         </h2>
         <p className="text-white mb-12">
           Care2 Training specializes in study abroad, work abroad, and
           recruitment solutions. We provide personalized guidance, trusted
           partnerships, and seamless processes to help.
-        </p>
+        </p> */}
       </div>
 
       <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-3xl font-bold text-yellow-500 mb-4">
-            DON NOT BE SHY!
+          <h3 className="text-3xl font-bold text-blue-700 mb-4">
+            GET IN TOUCH
           </h3>
           <p className="text-white mb-8">
-            Feel free to get in touch with me. I am always open to discussing
-            new projects, creative ideas, or opportunities to be part of your
-            visions.
+            Care2 Training specializes in study abroad, work abroad, and
+            recruitment solutions. We provide personalized guidance, trusted
+            partnerships, and seamless processes to help.
           </p>
           <div className="flex items-center mb-4">
-            <div className="bg-yellow-500 p-3 rounded-full">
+            <div className="bg-blue-700 p-3 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -56,7 +56,7 @@ const Contract: React.FC = () => {
             </div>
           </div>
           <div className="flex items-center">
-            <div className="bg-yellow-500 p-3 rounded-full">
+            <div className="bg-blue-700 p-3 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -77,7 +77,7 @@ const Contract: React.FC = () => {
               href="https://www.facebook.com/profile.php?id=100093069712084"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-500 hover:text-gray-300 transition-colors duration-300 text-3xl"
+              className="text-blue-700 hover:text-gray-300 transition-colors duration-300 text-3xl"
             >
               <FaFacebook />
             </a>
@@ -85,7 +85,7 @@ const Contract: React.FC = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-500 hover:text-gray-300 transition-colors duration-300 text-3xl"
+              className="text-blue-700 hover:text-gray-300 transition-colors duration-300 text-3xl"
             >
               <AiFillTwitterCircle />
             </a>
@@ -93,7 +93,7 @@ const Contract: React.FC = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-500 hover:text-gray-300 transition-colors duration-300 text-3xl"
+              className="text-blue-700 hover:text-gray-300 transition-colors duration-300 text-3xl"
             >
               <FaLinkedin />
             </a>
@@ -101,18 +101,9 @@ const Contract: React.FC = () => {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-500 hover:text-gray-300 transition-colors duration-300 text-3xl"
+              className="text-blue-700 hover:text-gray-300 transition-colors duration-300 text-3xl"
             >
               <FaGithub />
-            </a>
-
-            <a
-              href="/login"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-yellow-500 hover:text-gray-300 transition-colors duration-300 text-3xl"
-            >
-              <IoMdLogIn />
             </a>
           </div>
         </div>
@@ -139,7 +130,7 @@ const Contract: React.FC = () => {
               className="w-full p-3 bg-gray-800 rounded-md text-white placeholder-gray-100"
               rows={5}
             ></textarea>
-            <button className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 rounded-md transition duration-300 flex items-center justify-center">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-md transition duration-300 flex items-center justify-center">
               SEND MESSAGE
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +146,6 @@ const Contract: React.FC = () => {
           </form>
         </div>
       </div>
-      <hr />
     </footer>
   );
 };
