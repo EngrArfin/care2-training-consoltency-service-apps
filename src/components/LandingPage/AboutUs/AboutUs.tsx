@@ -1,27 +1,28 @@
-import React from "react";
+import HeaderTitle from "../Shared/HeaderTitle";
 
 const AboutUs: React.FC = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
-            About Us
-          </h2>
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <HeaderTitle
+            heading={"About Us"}
+            generalText={"Welcome to the about us page."}
+          />
+
+          <p className="text-gray-700 text-lg leading-relaxed">
             At Career Elevate Consultancy, we empower individuals to achieve
             their professional dreams through tailored career training, expert
-            guidance, and strategic support. With a team of seasoned
-            professionals and a history of delivering exceptional results, we
-            specialize in streamlining the process of upskilling, career
-            transitions, and visa applications for study and work abroad.
-            Dedicated to excellence, we provide innovative solutions to help you
-            navigate the complexities of global career opportunities and succeed
-            in your journey toward success.
+            guidance, and strategic support. Our experienced team specializes in
+            streamlining the process of upskilling, career transitions, and visa
+            applications for studying and working abroad. We are committed to
+            providing innovative solutions to help you navigate global career
+            opportunities and achieve success in your professional journey.
           </p>
         </div>
+
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Expertise Section */}
+          {/* Career Training Section */}
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
               <svg
@@ -47,6 +48,7 @@ const AboutUs: React.FC = () => {
               through our specialized training programs.
             </p>
           </div>
+
           {/* Global Opportunities Section */}
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
@@ -73,6 +75,7 @@ const AboutUs: React.FC = () => {
               through our expert consultancy services.
             </p>
           </div>
+
           {/* Visa Assistance Section */}
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">

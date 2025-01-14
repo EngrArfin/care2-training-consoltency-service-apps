@@ -7,7 +7,6 @@ export type TPost = {
 };
 
 export type TitleProps = {
-  subHeading: string;
   heading: string;
   generalText: string;
 };
