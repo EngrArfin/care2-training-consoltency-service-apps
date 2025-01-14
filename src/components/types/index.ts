@@ -5,3 +5,9 @@ export type TPost = {
   image: string;
   cta: string;
 };
+
+export type TitleProps = {
+  subHeading: string;
+  heading: string;
+  generalText: string;
+};
