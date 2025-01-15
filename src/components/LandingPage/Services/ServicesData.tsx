@@ -43,7 +43,7 @@ const ServicesData = () => {
   }
 
   return (
-    <section className=" py-5 px-5 mx-auto ">
+    <section className=" min-h-screen py-5 px-5 mx-auto ">
       {" "}
       <HeaderTitle
         heading={"Our Services"}
@@ -56,7 +56,7 @@ const ServicesData = () => {
           ))
         ) : (
           <div className="col-span-full text-center py-4 text-lg text-gray-500">
-            No services available.
+            Services Loading..... . .
           </div>
         )}
       </div>

@@ -1,12 +1,19 @@
 import Link from "next/link";
+import footer from "../../../UI/image/logo.png";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div>
       <footer className=" bg-gray-950 footer text-white p-10">
         <aside>
-          <div>
-            <h1 className="text-4xl"> Training Consoltency</h1>
+          <div className="flex items-center justify-center">
+            <div>
+              <Image src={footer} alt="" height={50} width={50} />
+            </div>
+            <div>
+              <h1 className="text-4xl ml-2"> Care2 Training </h1>
+            </div>
           </div>
           <p>
             Care2 Training specializes in study abroad, work abroad, and <br />
@@ -16,32 +23,33 @@ const Footer = () => {
         </aside>
         <nav>
           <h6 className="footer-title">Quick Link 1</h6>
-          <Link href="" className="link link-hover">
+          <Link href="/" className="link link-hover">
             Home
           </Link>
-          <Link href="" className="link link-hover">
-            Shop
+          <Link href="about" className="link link-hover">
+            About us
+          </Link>
+
+          <Link href="contract" className="link link-hover">
+            Contract
           </Link>
           <Link href="" className="link link-hover">
             Blog
-          </Link>
-          <Link href="" className="link link-hover">
-            Detail Blog
           </Link>
         </nav>
         <nav>
           <h6 className="footer-title">Quick Link 2</h6>
           <Link href="" className="link link-hover">
-            Favorites
+            VISA
           </Link>
           <Link href="" className="link link-hover">
-            Cart
+            Aboard Service
           </Link>
-          <Link href="" className="link link-hover">
-            Sign in
+          <Link href="/login" className="link link-hover">
+            Login
           </Link>
-          <Link href="" className="link link-hover">
-            Register
+          <Link href="/signup" className="link link-hover">
+            Signup
           </Link>
         </nav>
         <nav>
@@ -53,17 +61,19 @@ const Footer = () => {
             consoltency@gmail.com
           </Link>
           <Link href="" className="link link-hover">
-            Dhaka, Bangladesh
+            United Kingdom /-Dhaka, Bangladesh
           </Link>
           <div>
-            <p> Accepted Payment Methods:</p>
+            <p> UK Base Company</p>
             <div className="flex"></div>
           </div>
         </nav>
       </footer>
       <footer className="footer bg-gray-950  text-white border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
-          <p>© Copyright 2024, All Rights Reserved by Training Consoltency</p>
+          <p>
+            © Copyright 2024, All Rights Reserved by Care2 Training Consoltency
+          </p>
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4">

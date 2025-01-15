@@ -1,4 +1,7 @@
+import { MdModelTraining } from "react-icons/md";
 import HeaderTitle from "../Shared/HeaderTitle";
+import { RiGlobalFill } from "react-icons/ri";
+import { FaCcVisa } from "react-icons/fa";
 
 const AboutUs: React.FC = () => {
   return (
@@ -25,20 +28,7 @@ const AboutUs: React.FC = () => {
           {/* Career Training Section */}
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
-              <svg
-                className="w-8 h-8 text-blue-600"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9.75 11.5a3.5 3.5 0 00.263 6.996m4.987-2.496a3.5 3.5 0 10-2.754-4.753m2.744-2.744a3.5 3.5 0 11-4.76-4.757M5 13v1m5-4V7m0 4v3m0 1h-2.5M9 3.5h1.5m-3.5 5H5"
-                />
-              </svg>
+              <MdModelTraining />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Career Training
@@ -52,20 +42,7 @@ const AboutUs: React.FC = () => {
           {/* Global Opportunities Section */}
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
-              <svg
-                className="w-8 h-8 text-blue-600"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17.5 8a6.5 6.5 0 01-13 0v-3.5a6.5 6.5 0 0113 0V8z"
-                />
-              </svg>
+              <RiGlobalFill />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Global Opportunities
@@ -79,20 +56,7 @@ const AboutUs: React.FC = () => {
           {/* Visa Assistance Section */}
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
-              <svg
-                className="w-8 h-8 text-blue-600"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9.75 11.5a3.5 3.5 0 00.263 6.996m4.987-2.496a3.5 3.5 0 10-2.754-4.753m2.744-2.744a3.5 3.5 0 11-4.76-4.757M5 13v1m5-4V7m0 4v3m0 1h-2.5M9 3.5h1.5m-3.5 5H5"
-                />
-              </svg>
+              <FaCcVisa />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Visa Assistance

@@ -2,11 +2,13 @@ import Image from "next/image";
 import footerphoto from "../../../UI/image/logo.png";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import HeaderTitle from "../Shared/HeaderTitle";
 /* import { IoMdLogIn } from "react-icons/io"; */
 
 const Contract: React.FC = () => {
   return (
     <footer className="bg-gradient-to-b from-gray-900 via-gray-950 to-black text-white py-16 px-6">
+      <HeaderTitle heading={"Contract"} generalText={""} />
       <div className="max-w-screen-lg mx-auto text-center">
         <div className="w-32 h-32 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg mx-auto mb-8">
           <Image
@@ -18,21 +20,11 @@ const Contract: React.FC = () => {
             style={{ objectFit: "cover" }}
           />
         </div>
-        {/* <h2 className="text-4xl text-yellow-500 font-bold mb-4">
-          GET IN TOUCH
-        </h2>
-        <p className="text-white mb-12">
-          Care2 Training specializes in study abroad, work abroad, and
-          recruitment solutions. We provide personalized guidance, trusted
-          partnerships, and seamless processes to help.
-        </p> */}
       </div>
 
       <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-3xl font-bold text-blue-700 mb-4">
-            GET IN TOUCH
-          </h3>
+          <h3 className="text-3xl font-bold text-white mb-4">CARE2 TRAINING</h3>
           <p className="text-white mb-8">
             Care2 Training specializes in study abroad, work abroad, and
             recruitment solutions. We provide personalized guidance, trusted
@@ -131,7 +123,7 @@ const Contract: React.FC = () => {
               rows={5}
             ></textarea>
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-md transition duration-300 flex items-center justify-center">
-              SEND MESSAGE
+              GET IN TOUCH
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

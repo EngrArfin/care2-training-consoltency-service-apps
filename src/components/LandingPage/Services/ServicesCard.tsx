@@ -40,9 +40,9 @@ const ServicesCard = ({ service }: ServicesCardProps) => {
       <div className="card-actions justify-center absolute bottom-4 w-full transition-opacity duration-300 ">
         <Link
           href={`/services/${_id}`}
-          className="bg-sky-600 text-white py-2 px-8 rounded font-semibold hover:bg-yellow-500 transition-transform duration-300 transform hover:scale-105"
+          className="bg-blue-900 text-white py-2 px-8 rounded font-semibold hover:bg-blue-500 transition-transform duration-300 transform hover:scale-105"
         >
-          View Details
+          Lern More
         </Link>
       </div>
     </div>

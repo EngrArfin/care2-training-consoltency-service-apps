@@ -1,9 +1,11 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
+import logo from "../../../UI/image/logo.png";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-red-800">
+    <div className="navbar bg-gray-900 text-white front-bold">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,7 +26,7 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-gray-900 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
               <Link href="/">Home</Link>
@@ -40,9 +42,13 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <Link href="" className="btn btn-ghost text-xl">
-          Training Consoltency
-        </Link>
+        <div className="flex items-center justify-center">
+          <div>
+            <Link href="/" className="btn btn-ghost text-xl">
+              <Image src={logo} alt="" height={50} width={50} />
+            </Link>
+          </div>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -62,9 +68,12 @@ const NavBar = () => {
       </div>
       <div className="navbar-end">
         <div>
-          <button className="mt-6 px-6 py-3 bg-sky-400 text-blavk border border-black font-semibold rounded-lg  ">
-            Signup
-          </button>
+          <Link
+            href="/login"
+            className="mt-6 px-6 py-3 bg-blue-900 text-blavk border border-black font-semibold rounded-lg  "
+          >
+            Signin
+          </Link>
         </div>
       </div>
     </div>

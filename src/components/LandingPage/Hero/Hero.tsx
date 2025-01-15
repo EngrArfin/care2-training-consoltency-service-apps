@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           Unlock your future with expert consultancy for visa applications,
           study abroad, and work placements.
         </p>
-        <button className="px-6 py-3 text-sm sm:text-base font-semibold bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-lg shadow-lg">
+        <button className="px-6 py-3 text-sm sm:text-base font-semibold bg-blue-900 hover:bg-blue-700 transition-colors duration-300 rounded-lg shadow-lg">
           Get Started
         </button>
       </div>

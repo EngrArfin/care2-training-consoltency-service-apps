@@ -1,4 +1,4 @@
-import { TService, TServiceDetails } from "@/types";
+import { TService /* TServiceDetails */ } from "@/types";
 import axios from "axios";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
@@ -22,7 +22,7 @@ export const getServices = async (): Promise<TService[]> => {
   }
 };
 
-export const getServicesDetails = async (
+/* export const getServicesDetails = async (
   id: string
 ): Promise<TServiceDetails> => {
   try {
@@ -39,4 +39,4 @@ export const getServicesDetails = async (
     console.error(`Error fetching service details for ID ${id}:`, error);
     return {} as TServiceDetails;
   }
-};
+}; */
